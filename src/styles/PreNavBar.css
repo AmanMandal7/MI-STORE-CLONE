@@ -1,0 +1,39 @@
+.preNav {
+  background-color: rgb(31, 29, 29);
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  color: white;
+}
+
+.preNav > div {
+  padding: 0 2vmax 0 10vmax;
+  display: flex;
+  align-items: center;
+}
+
+.preNav > div > span {
+  color: rgb(109, 96, 96);
+  font-size: 1vmax;
+  font-weight: 100;
+}
+
+.preNav > div svg {
+  fill: rgb(185, 177, 177);
+}
+
+.preNav > div svg:hover {
+  fill: white;
+}
+
+.preNav > div > a {
+  color: rgb(185, 177, 177);
+  font-size: 0.8vmax;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin: 1vmax;
+  text-decoration: none;
+}
+
+.preNav > div > a:hover {
+  color: white;
+}

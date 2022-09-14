@@ -1,0 +1,36 @@
+import React from 'react'
+import '../styles/Navbar.css'
+import { Link } from 'react-router-dom'
+import packageInfo from '../data/data.json'
+
+const logo = packageInfo.logo;
+const searchIcon = <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="m19.475 21.025-6.25-6.25q-.725.575-1.687.9Q10.575 16 9.5 16q-2.725 0-4.6-1.887-1.875-1.888-1.875-4.588T4.9 4.937Q6.775 3.05 9.5 3.05q2.7 0 4.575 1.887 1.875 1.888 1.875 4.588 0 1.075-.325 2.037-.325.963-.875 1.688l6.225 6.25Zm-9.975-7.2q1.8 0 3.05-1.25 1.25-1.25 1.25-3.05 0-1.8-1.25-3.05-1.25-1.25-3.05-1.25-1.825 0-3.075 1.25-1.25 1.25-1.25 3.05 0 1.8 1.25 3.05 1.25 1.25 3.075 1.25Z" /></svg>
+
+const Navbar = () => {
+    return (
+        <div className='nav'>
+            <div className="logo">
+                <Link to="/"><img id="logoImage" src={logo} alt="Not" /></Link>
+            </div>
+
+            <div className='links'>
+                <Link className="navlinks" to="/miphones">Mi Phones</Link>
+                <Link className="navlinks" to="/redmiphones">Redmi Phones</Link>
+                <Link className="navlinks" to="/tv">TV</Link>
+                <Link className="navlinks" to="/lifestyle">Fitness & Lifestyle</Link>
+                <Link className="navlinks" to="home">Home</Link>
+                <Link className="navlinks" to="audio">Audio</Link>
+                <Link className="navlinks" to="accessories">Accessories</Link>
+            </div>
+
+
+            <div className="searchbox">
+                <input type="text" name='search' placeholder='Search Products' />{searchIcon}
+            </div>
+
+
+        </div>
+    )
+}
+
+export default Navbar
