@@ -1,0 +1,30 @@
+.HotItemCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 31%;
+  margin: 0.7vmax;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.HotItemCard:hover {
+  transform: translateY(-0.1vmax);
+  box-shadow: 0 0 15px rgb(185, 171, 171);
+}
+
+.HotItemCard > img {
+  width: 70%;
+}
+
+.HotItemCard > p {
+  color: rgb(97, 83, 83);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.HotItemCard > span {
+  margin: -1vmax 0 1vmax 0;
+  color: orangered;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

@@ -1,0 +1,175 @@
+.preFooter {
+  margin: 5vmax 0 0 0;
+  background-color: white;
+  padding: 1vmax;
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.preFooter > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(93, 91, 91, 0.838);
+  cursor: pointer;
+}
+.preFooter > div svg {
+  fill: rgba(93, 91, 91, 0.838);
+}
+
+.preFooter > div:hover {
+  color: rgba(47, 46, 46, 0.99);
+}
+.preFooter > div:hover svg {
+  fill: rgba(47, 46, 46, 0.99);
+}
+
+.preFooter svg {
+  transform: scale(1.8) translateY(-0.2vmax);
+  margin: 2vmax;
+}
+
+/*------------------------------------------------preFooter2-------------------------------------------------------*/
+
+.preFooter2 {
+  display: grid;
+  height: 150px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.preFooter2 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.preFooter2 > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+}
+
+.preFooter2 > div:first-child {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.preFooter2 > div:nth-child(3) {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.preFooter2 > div p {
+  color: rgba(35, 34, 34, 0.99);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3vmax;
+  width: 18vmax;
+  margin: 0;
+}
+
+.preFooter2 > div span {
+  color: rgba(61, 60, 60, 0.99);
+  font-size: 1vmax;
+  width: 18vmax;
+  margin: 0;
+}
+
+.preFooter2 > div input {
+  outline: none;
+  border: 1px solid rgba(61, 60, 60, 0.99);
+  border-right: none;
+  padding: 0.5vmax 1vmax;
+  height: 2vmax;
+  width: 15vmax;
+  font-size: 1vmax;
+}
+
+.preFooter2 > div button {
+  border: 1px solid rgba(61, 60, 60, 0.99);
+  border-left: none;
+  height: 2vmax;
+  background-color: white;
+  outline: none;
+}
+
+.preFooter2 > div:last-child {
+  justify-content: center;
+  flex-direction: row;
+  width: 10vmax;
+}
+
+.preFooter2 > div:last-child > svg {
+  cursor: pointer;
+  fill: rgba(61, 60, 60, 0.927);
+  margin: auto;
+}
+.preFooter2 > div:last-child > svg:hover {
+  fill: rgba(25, 25, 25, 0.99);
+}
+
+/*-----------------------------------------------------FOOTER--------------------------------------------------------------------*/
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+  padding: 6vmax;
+  background-color: rgb(35, 34, 34);
+  color: rgb(167, 163, 163);
+}
+
+.footer > div {
+  margin: 1vmax;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer > div:nth-child(2) {
+  display: block;
+}
+.footer > div:nth-child(2) a {
+  display: inline-block;
+}
+
+.footer > div a {
+  color: rgb(167, 163, 163);
+  text-decoration: none;
+  font-size: 1vmax;
+  margin: 0.5vmax 0;
+}
+
+.footer > div a:hover {
+  color: white;
+}
+
+.footer > div:last-child p {
+  width: 80%;
+  margin: 0.7vmax 0;
+  font-size: 1vmax;
+}
+
+.footer > div:last-child button {
+  width: 50%;
+  height: 2.8vmax;
+  font-size: 1vmax;
+  margin: 0.5vmax 0;
+  background-color: rgb(35, 34, 34);
+  color: white;
+  border-color: white;
+  transition: all 0.3s;
+}
+.footer > div:last-child button:hover {
+  background-color: white;
+  color: rgb(35, 34, 34);
+}
+
+.footerBorder {
+  background-color: rgb(35, 34, 34);
+  color: rgb(167, 163, 163);
+}
+.footerBorder > div {
+  width: 85vmax;
+  margin: auto;
+  border-top: 1px solid rgba(78, 75, 75, 0.805);
+  padding: 2vmax 0;
+  font-size: 0.98vmax;
+}

@@ -11,7 +11,7 @@ const Slider = ({ start }) => {
                     <img
                         className="d-block w-100"
                         src={item}
-                        alt="First slide"
+                        alt={`${index} slide`}
                     />
                 </Carousel.Item>
             ))}

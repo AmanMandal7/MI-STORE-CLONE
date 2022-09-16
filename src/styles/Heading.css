@@ -7,8 +7,8 @@
 .heading div {
   background-color: rgb(103, 96, 96);
   margin: 2vmax;
-  height: 1px;
-  width: 30vw;
+  height: 0.1px;
+  width: 30%;
 }
 
 .heading p {
