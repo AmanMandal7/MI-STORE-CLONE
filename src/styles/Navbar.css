@@ -6,7 +6,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /* border-bottom: 0.2px solid rgb(108, 95, 95); */
+  border-bottom: 0.1px solid rgba(215, 200, 200, 0.615);
 }
 
 .logo {
